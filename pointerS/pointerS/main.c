@@ -12,6 +12,8 @@ int main(int argc, char* argv[]) {	// >PointerSample 10000 500 : //Command Line 
 	int start = 0x09000000;
 	int length = 500;
 
+	//¾È³ç ³ª´Â µµÀ±ÀÌ¾ß
+
 	MemoryDump((int)buf, length);
 
 	/*void* p = malloc(100);
